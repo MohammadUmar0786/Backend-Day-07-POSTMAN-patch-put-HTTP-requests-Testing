@@ -1,4 +1,4 @@
-// Put & Patch http method: Using "POSTMAN":
+// Put, Patch & Delete http method: Using "POSTMAN":
 
 // import express
 const express = require('express');
@@ -27,7 +27,7 @@ app.patch('/about', (req,res)=>{
     res.send("Small data updated successfully");
 })
 
-// Delete http request (Delete age filed from the data)
+// Delete http request : (Delete age filed from the data)
 app.delete('/about',(req,res)=>{
     console.log(req.body);
     res.send("Deleted some data successfully");
