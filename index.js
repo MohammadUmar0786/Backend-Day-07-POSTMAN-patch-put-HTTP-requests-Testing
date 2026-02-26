@@ -27,6 +27,12 @@ app.patch('/about', (req,res)=>{
     res.send("Small data updated successfully");
 })
 
+// Delete http request (Delete age filed from the data)
+app.delete('/about',(req,res)=>{
+    console.log(req.body);
+    res.send("Deleted some data successfully");
+})
+
 // Listen at a port no.
 app.listen(3000,()=>{
     console.log("Listening at a port no. 3000");
