@@ -1,4 +1,4 @@
-// Put, Patch & Delete http method: Using "POSTMAN":
+// Put, Patch & Delete http method: Using "POSTMAN":  "Done these by direct using body at postman --> not recommended method, but can do"
 
 // import express
 const express = require('express');
